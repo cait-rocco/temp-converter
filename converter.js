@@ -14,7 +14,6 @@ var convertedTemp = document.getElementById("convertedTemp");
 
 function determineConverter () {
 	var enteredTemp = document.getElementById("tempField").value;
-	var chosenTemp = document.getElementsByName("tempType").value;
 	if (document.getElementById("toFar").checked) {
 		return toFahrenheit(enteredTemp);
 		
